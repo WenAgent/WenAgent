@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "wen-agent"
+version = "0.1.0"
+description = "An AI-powered agent for Chinese culture insights"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.0"
+
+[tool.poetry.dev-dependencies]
+unittest = "*"
